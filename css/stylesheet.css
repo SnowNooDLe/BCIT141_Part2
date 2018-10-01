@@ -13,3 +13,38 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
 img {
     width: 100%;
 }
+
+
+/* layouts */
+body {
+  display: grid;
+
+  grid-template-columns: 10rem 80rem 10rem;
+}
+
+nav, footer {
+  grid-column: 1/4;
+}
+
+main {
+  grid-column: 2/3;
+}
+
+/* nav & footer */
+nav ul, footer ul {
+  display: flex;
+  margin: 0 auto;
+}
+
+nav li, footer ul {
+  margin-right: 2em;
+}
+
+/* Navigation */
+nav ul, footer ul {
+  list-style-type: none;
+}
+
+nav a, footer a {
+  text-decoration: none;
+}
