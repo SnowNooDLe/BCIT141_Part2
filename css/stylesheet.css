@@ -15,7 +15,7 @@ img {
 }
 
 
-/* layouts */
+/* grid */
 body {
   display: grid;
 
@@ -28,6 +28,13 @@ nav, footer {
 
 main {
   grid-column: 2/3;
+}
+
+/* flexbox */
+
+nav ul, footer ul{
+  display: flex;
+  justify-content: space-around;
 }
 
 /* nav & footer */
