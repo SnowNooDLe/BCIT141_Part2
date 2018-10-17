@@ -34,13 +34,18 @@ main {
 
 nav ul, footer ul{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* nav & footer */
+nav ul {
+  /*height: 40px;*/
+}
 nav ul, footer ul {
   display: flex;
-  margin: 0 auto;
+  margin: 0px;
+  font-size: 150%;
 }
 
 nav li, footer ul {
@@ -49,7 +54,7 @@ nav li, footer ul {
 
 /* White Space */
 nav, footer {
-  padding: 2.5% 10% 2.5% 10%;
+  padding: 1% 10%;
 }
 
 /* Navigation */
@@ -75,4 +80,20 @@ nav a, footer a {
 
 .selected, a:hover {
     color: #ff0000;
+}
+
+/*table*/
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table ul {
+  list-style-position: inside;
+}
+
+/*Image*/
+img {
+  float: right;
 }
