@@ -97,3 +97,9 @@ table ul {
 img {
   float: right;
 }
+
+/* map */
+#map {
+  height: 400px;
+  width: 100%;
+}
