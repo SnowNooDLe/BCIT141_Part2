@@ -8,4 +8,11 @@ Ladi6 - Bang Bang
 https://www.youtube.com/watch?v=x_sclc7Aq3w
 
 About
+
 https://apptopia.com/about
+
+topnav
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+getting idea for main page.
+https://www.thewildhoneypie.com/

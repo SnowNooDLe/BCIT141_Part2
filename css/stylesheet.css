@@ -38,6 +38,12 @@ nav ul, footer ul{
   align-items: center;
 }
 
+#featured_video_section{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
 /* nav & footer */
 nav ul {
   /*height: 40px;*/
