@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NZ Music Live - Home</title>
     <link rel="stylesheet" href="css/stylesheet.css">
     <script type="text/javascript" src="js/javascript.js"></script>
@@ -11,21 +12,28 @@
 
     </header> -->
     <nav>
-      <ul>
-        <li><a href="index.html"><img src="images/logo_clear_33.png" alt="NZMusicLive logo" class="NZMusicLiveLogo"></a></li>
-        <li><a href="about_us.html">About Us</a></li>
-        <li><a href="musician_info.html">Musician Info</a></li>
-        <div class="dropdown">
+      <input type="checkbox" id="checkbox1">
+      <label for="checkbox1">
+        <ul class="container">
+          <!-- <img src="images/logo_clear_33.png" alt="NZMusicLive logo" class="NZMusicLiveLogo"> -->
+          <li><a href="index.html">Logo</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="musician_info.html">Musician Info</a></li>
           <li><a href="recording.html">Recording</a></li>
-          <div class="dropdown-content">
-            <a href="recording_1.html">Ladi6 - Walk Right Up</a>
-            <a href="recording_2.html">Ladi6 - Like Water</a>
-            <a href="recording_3.html">Ladi6 - Bang Bang</a>
+          <div class="dropdown">
+
+            <div class="dropdown-content">
+              <a href="recording_1.html">Ladi6 - Walk Right Up</a>
+              <a href="recording_2.html">Ladi6 - Like Water</a>
+              <a href="recording_3.html">Ladi6 - Bang Bang</a>
+            </div>
           </div>
-        </div>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-      </ul>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <span class="toggle">&#9776;</span>
+      </label>
+
     </nav>
 
     <main>
@@ -40,7 +48,7 @@
       <br>
       <br>
       <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Bhx7FZZSeXo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-      
+
       <h3>ABCD</h3>
     </main>
 
