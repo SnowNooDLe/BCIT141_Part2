@@ -47,20 +47,28 @@ main {
 
 /* nav & footer */
 nav {
-  width: 100%;
+  /* width: 100%; */
   overflow: auto;
 }
 
 #checkbox1, .toggle {
   display: none;
 }
-
+.logo_part {
+  margin-right: 10%;
+}
 .container, footer ul {
   display: flex;
   /* max-width: 75%; */
   margin: 0;
   padding: 0;
   font-size: 150%;
+}
+
+.naviators {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
 }
 
 
@@ -103,6 +111,9 @@ a:hover {
   color: red;
   text-decoration: underline;
 }
+.footer_div {
+  font-size: 100%;
+}
 /* I was trying to add visited link colour as well but can't really find good one with grey background */
 /* a:visited {
   color: blue;
@@ -128,6 +139,11 @@ img {
   float: right;
 }
 
+.NZMusicLiveLogo {
+  width: auto;
+  height: auto;
+}
+
 /* map */
 #map {
   height: 400px;
@@ -138,39 +154,11 @@ img {
   color: red;
 }
 
-/* dropdown */
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 280px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 @media all and (max-width: 500px) {
   .toggle {
     clear: both;
     display: block;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     line-height: 30px;
     cursor: pointer;
@@ -180,37 +168,44 @@ img {
     transition: all .1s linear;
   }
 
-  #checkbox1:checked + label .container li {
+  #checkbox1:checked + label .naviators li {
     opacity: 1;
     visibility: visible;
     transition: all .7s linear;
   }
 
-  #checkbox1:checked + label .container {
+  #checkbox1:checked + label .naviators {
     height: 200px;
   }
 
-  .container {
+  .logo_part {
+      margin-top: 15%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .naviators {
     border-radius: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: right;
     height: 0px;
   }
 
-  .container li {
+  .naviators li {
     display: flex;
-    align-self: center;
+    align-self: right;
     width: 95%;
     opacity: 0;
     visibility: hidden;
   }
 
-  .container li a {
+  .naviators li a {
     width: 95%;
-    text-align: center;
-    align-self: center;
-    align-content: center;
+    text-align: right;
+    align-self: right;
+    align-content: right;
   }
 }
