@@ -46,18 +46,26 @@ main {
 }
 
 /* nav & footer */
-.container, footer ul {
-  display: flex;
-  margin: 0px;
-  font-size: 150%;
-}
-
 nav {
   width: 100%;
   overflow: auto;
 }
+
+#checkbox1, .toggle {
+  display: none;
+}
+
+.container, footer ul {
+  display: flex;
+  /* max-width: 75%; */
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+}
+
+
 nav li, footer ul {
-  margin-right: 2em;
+  /* margin-right: 2em; */
 }
 
 /* main */
@@ -157,11 +165,6 @@ img {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-#checkbox1, .toggle {
-  display: none;
-}
 
 @media all and (max-width: 500px) {
   .toggle {
