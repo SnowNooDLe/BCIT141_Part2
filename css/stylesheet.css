@@ -45,9 +45,6 @@ nav ul, footer ul{
 }
 
 /* nav & footer */
-nav ul {
-  /*height: 40px;*/
-}
 nav ul, footer ul {
   display: flex;
   margin: 0px;
@@ -58,6 +55,11 @@ nav li, footer ul {
   margin-right: 2em;
 }
 
+/* main */
+main {
+  padding: 1em 2em;
+  line-height: 1.6;
+}
 /* White Space */
 nav, footer {
   padding: 1% 10%;
@@ -108,6 +110,10 @@ img {
 #map {
   height: 400px;
   width: 100%;
+}
+/* changing color for required star */
+.required {
+  color: red;
 }
 
 /* dropdown */
