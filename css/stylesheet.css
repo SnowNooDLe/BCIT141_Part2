@@ -124,6 +124,24 @@ a:hover {
     color: #ff0000;
 }
 
+.singer_ladi6 {
+  border-bottom: 2px solid white;
+}
+
+.ladi6_videos {
+  display: flex;
+  list-style: none;
+}
+
+.ladi6_videos li {
+    margin: 0 0.25em;
+    height: 90%;
+}
+
+.walk_right_up_album, .like_water_album, .bang_bang_album {
+  width: 100%;
+  height: 100%;
+}
 /*table*/
 table, th, td {
     border: 1px solid white;
