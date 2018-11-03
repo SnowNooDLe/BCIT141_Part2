@@ -82,11 +82,20 @@ nav, footer, main {
   background-color: #444444;
 }
 
-nav a, footer a {
+a {
     color: #ffffff;
+    text-decoration: none;
 }
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+/* I was trying to add visited link colour as well but can't really find good one with grey background */
+/* a:visited {
+  color: blue;
+} */
 
-.selected, a:hover {
+.selected{
     color: #ff0000;
 }
 
