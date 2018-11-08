@@ -38,12 +38,14 @@ footer ul{
   align-items: center;
 }
 
-#featured_video_section{
+.video_title_view_all{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
   border-bottom: 4px solid white;
+  margin-bottom: 1em;
+  font-size: 2em;
 }
 
 /* footer */
@@ -161,6 +163,10 @@ width: 100%;
 height: 100%;
 }
 
+.live_title {
+  border-bottom: 4px solid white;
+  margin-bottom: 1em;
+}
 /* Responsive Design */
 /* Add a black background color to the top navigation */
 .topnav {
