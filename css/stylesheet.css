@@ -72,11 +72,6 @@ nav {
   flex: 1;
 }
 
-
-nav li, footer ul {
-  /* margin-right: 2em; */
-}
-
 /* main */
 main {
   padding: 1em 2em;
@@ -130,12 +125,12 @@ a:hover {
 
 .ladi6_videos {
   display: flex;
-  list-style: none;
+  height: 90%;
+  margin-bottom: 1em;
 }
 
-.ladi6_videos li {
-    margin: 0 0.25em;
-    height: 90%;
+.ladi6_videos{
+
 }
 
 .walk_right_up_album, .like_water_album, .bang_bang_album {
@@ -151,6 +146,10 @@ table, th, td {
 
 table ul {
   list-style-position: inside;
+}
+
+h4 {
+  text-align: center;
 }
 
 /*Image*/
@@ -189,6 +188,7 @@ width: 100%;
 height: 100%;
 }
 
+/* Mobile View */
 
 @media all and (max-width: 500px) {
   .toggle {
@@ -226,13 +226,11 @@ height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: right;
     height: 0px;
   }
 
   .naviators li {
     display: flex;
-    align-self: right;
     width: 98%;
     opacity: 0;
     visibility: hidden;
@@ -241,8 +239,6 @@ height: 100%;
   .naviators li a {
     width: 98%;
     text-align: right;
-    align-self: right;
-    align-content: right;
   }
 
   .footer_div {
