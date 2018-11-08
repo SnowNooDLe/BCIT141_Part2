@@ -233,19 +233,19 @@ height: 100%;
   .naviators li {
     display: flex;
     align-self: right;
-    width: 95%;
+    width: 98%;
     opacity: 0;
     visibility: hidden;
   }
 
   .naviators li a {
-    width: 95%;
+    width: 98%;
     text-align: right;
     align-self: right;
     align-content: right;
   }
 
-  footer_div {
+  .footer_div {
     font-size: 70%;
   }
 }
